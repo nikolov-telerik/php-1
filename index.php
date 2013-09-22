@@ -55,8 +55,8 @@ $expenses = getExpenses($category, $startDate, $endDate);
                 . "</td></tr>";
         }
         echo   "<tr><td style='text-align:right;' colspan='2'><b>Total:</b>"
-            . "</td><td>$" . number_format($expense['amount'], 2)
-            . "</td><td colspan='2'>&nbsp;</td></tr>";
+             . "</td><td>$" . number_format($total, 2)
+             . "</td><td colspan='2'>&nbsp;</td></tr>";
     ?>
 </table>
 
